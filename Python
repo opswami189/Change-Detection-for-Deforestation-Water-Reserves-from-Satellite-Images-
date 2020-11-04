@@ -95,7 +95,7 @@ def find_PCAKmeans(imagepath1, imagepath2):
 
 cleanChangeMap = cv2.erode(change_map,kernel)  #  building a change map (a binary image to show the output of change detection)
     imsave("changemap.jpg", change_map)
-    imsave("cleanchangemap.jpg", cleanChangeMap) 
+    imsave("cleanchangemap.jpg", cleanChangeMap)  
  
 if __name__ == "__main__":
     a = 'image1.jpg'
